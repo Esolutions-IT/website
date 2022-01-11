@@ -1,0 +1,45 @@
+.hero{
+    height:614px;
+    width: 100%;
+
+    @media @tablet-l{
+        height:400px;
+    }
+
+    @media @mobile{
+        height:450px;
+    }
+}
+
+.hero__image-wrapper{
+    position:relative;
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    overflow:hidden;
+    width:100%;
+    height:644px;
+
+    @media @tablet-l{
+        height:400px;
+        top:0px;
+    }
+
+    @media @mobile{
+        height:100%;
+        top:0px;
+    }
+}
+
+.hero__image{
+    display:block;
+    width:100%;
+    height:auto;
+    max-width:none;
+    object-fit:cover;
+
+    @media @mobile, @tablet-p{
+        height:100%;
+        width:auto;
+    }
+}
