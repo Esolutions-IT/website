@@ -9,6 +9,8 @@
         </div>
     </div>
     <div class="about__collumn">
+        <div class="about__image">
         
+        </div>
     </div>
 </div>
