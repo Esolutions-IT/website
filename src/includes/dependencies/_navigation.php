@@ -18,14 +18,14 @@
                     </div>
                 </div>
                 <div class="header__items">
-                    <img src="public/gfx/icons/clock.png">
+                    <img src="public/gfx/icons/mail.png">
                     <div class="header__items--text">
                         <p class="header__items--title">Emailadres</p>
                         <p class="header__items--subtitle">info@esolutions-it.nl</p>
                     </div>
                 </div>
                 <div class="header__items">
-                    <img src="public/gfx/icons/clock.png">
+                    <img src="public/gfx/icons/phone-call.png">
                     <div class="header__items--text">
                         <p class="header__items--title">Telefoonnummer</p>
                         <p class="header__items--subtitle">0618425175</p>
