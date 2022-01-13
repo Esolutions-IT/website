@@ -1,5 +1,5 @@
 <div class="top__header">
-    <p class="top__header--text">Voor het maken, beheren en updaten van uw websites!</p>
+    <p class="top__header--text">Deze site is in aanbouw, voor vragen kunt u contact opnemen via het mailadres info@esolutions-it.nl</p>
 </div>
 
 <header class="header__wrapper">

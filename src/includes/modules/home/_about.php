@@ -1,5 +1,5 @@
 
-<div class="about__wrapper" style="background-image: url('public/gfx/images/it-background.png');">
+<div class="about__wrapper" style="background: linear-gradient(0deg, #000000 0%, rgba(0, 0, 0, 0) 100%), url('public/gfx/images/about_background.jpg');">
     <div class="about__collumn">
         <div class="about__text" points="0 250, 50 300, 300 300, 300 50, 250 0, 0 0">
             <h1 class="about__text--title">Over Esolutions-IT</h1>
@@ -10,7 +10,8 @@
     </div>
     <div class="about__collumn">
         <div class="about__image">
-            
+            <img class="about__image--employee" src="public/gfx/persons/gertjan_egas.png" />
+            <h1 class="about__image--name">Gertjan Egas</h1>
         </div>
     </div>
 </div>

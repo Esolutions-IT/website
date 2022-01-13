@@ -14,6 +14,7 @@
         <div class="content">
             <?php
                 include("src/includes/modules/home/_about.php");
+                include("src/includes/modules/home/_services.php");
             ?>
         </div>
     </body>

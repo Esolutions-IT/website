@@ -1,7 +1,8 @@
 .about__wrapper{
     display:flex;
-    background-image: url('../../../public/gfx/images/it-background.png');
-    background-size: cover;
+    background-size: cover!important;
+    padding-bottom:280px;
+    border-top:3px solid white;
 
     .about__collumn{
         width:50%;
@@ -15,10 +16,10 @@
         z-index:9;
         background:
 		linear-gradient(135deg, transparent 0px, #fff 0) top left,
-		linear-gradient(225deg, transparent 35px, #fff 0) top right,
+		linear-gradient(240deg, transparent 35px, #fff 0) top right,
 		linear-gradient(315deg, transparent 0px, #fff 0) bottom right,
 		linear-gradient(45deg,  transparent 0px, #fff 0) bottom left;
-	    background-size: 50% 50%;
+	    background-size: 60% 60%;
 	    background-repeat: no-repeat;
 
         &--title{
@@ -26,6 +27,12 @@
             font-weight: 700;
             line-height: 42px;
             padding-bottom:30px;
+            background: linear-gradient(114.98deg, #00B9EE 9.75%, #00B4EF 49.68%, #0060FF 49.69%, #0060FF 108.05%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            font-size:36px;
+            font-family:@font-sour;
+            width: 300px;
         }
 
         &--paragraphs{
@@ -33,6 +40,43 @@
             font-weight: 400;
             line-height: 30px;
             opacity:0.6;
+        }
+    }
+
+    .about__image{
+        position:relative;
+        background-color:@white;
+        width:339px;
+        height:339px;
+        float:right;
+        background:
+        linear-gradient(120deg, transparent 35px, #fff 0) top left,
+		linear-gradient(240deg, transparent 0px, #fff 0) top right,
+		linear-gradient(315deg, transparent 0px, #fff 0) bottom right,
+		linear-gradient(45deg,  transparent 0px, #fff 0) bottom left;
+        background-size: 60% 60%;
+	    background-repeat: no-repeat;
+        top:94px;
+
+        &--employee{
+            position:relative;
+            width:180px;
+            border-radius: 42px 90px 90px 90px;
+            left: calc(50% - 180px/2);
+            margin-top:62px;
+            margin-bottom:28px;
+        }
+
+        &--name{
+            position:relative;
+            bottom:0;
+            font-size:24px;
+            font-weight: 700;
+            background: linear-gradient(114.98deg, #00B9EE 9.75%, #00B4EF 49.68%, #0060FF 49.69%, #0060FF 108.05%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            width:190px;
+            left: calc(50% - 138px/2);
         }
     }
 }
