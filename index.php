@@ -17,5 +17,7 @@
                 include("src/includes/modules/home/_services.php");
             ?>
         </div>
+
+        <script src="./public/js/main.js"></script>
     </body>
 </html>

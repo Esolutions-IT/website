@@ -4,7 +4,7 @@
 
 <header class="header__wrapper">
     <div class="header__content">
-        <div class="header__logo">
+        <div class="header__logo" id="navLogo">
             <img src="public/gfx/logos/logo_esolutions.png">
         </div>
 
@@ -33,7 +33,7 @@
                 </div>
             </div>
 
-            <div class="header__nav">
+            <div class="header__nav" id="navSticky">
                 <nav class="nav">
                     <div class="nav__inner">
                         <div class="nav__items">
