@@ -9,12 +9,17 @@
 
     .about__text{
         position: relative;
-        padding-left:90px;
-        padding-right:90px;
-        padding-top:30px;
+        padding:30px 90px 50px 90px;
         top:-44px;
         background-color:@white;
         z-index:9;
+        background:
+		linear-gradient(135deg, transparent 0px, #fff 0) top left,
+		linear-gradient(225deg, transparent 35px, #fff 0) top right,
+		linear-gradient(315deg, transparent 0px, #fff 0) bottom right,
+		linear-gradient(45deg,  transparent 0px, #fff 0) bottom left;
+	    background-size: 50% 50%;
+	    background-repeat: no-repeat;
 
         &--title{
             font-size:36px;
@@ -29,19 +34,5 @@
             line-height: 30px;
             opacity:0.6;
         }
-    }
-
-    .about__text::after{
-        content: "";
-        position:absolute;
-        align-self:flex-end;
-        right:-167px;
-        top:-81px;
-        clip-path: polygon(66% 36%, 50% 66%, 66% 66%);
-        background-color:@white;
-        width:285px;
-        height:160px;
-        z-index:9999;
-        transform: rotate(90deg);
     }
 }

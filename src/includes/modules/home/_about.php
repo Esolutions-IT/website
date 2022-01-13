@@ -1,7 +1,7 @@
 
-<div class="about__wrapper">
+<div class="about__wrapper" style="background-image: url('public/gfx/images/it-background.png');">
     <div class="about__collumn">
-        <div class="about__text">
+        <div class="about__text" points="0 250, 50 300, 300 300, 300 50, 250 0, 0 0">
             <h1 class="about__text--title">Over Esolutions-IT</h1>
             <p class="about__text--paragraphs">Esolutions-IT is opgericht in 2018 door Gertjan Egas. Bij Esolutions-IT kunt u terecht als u een website of een webapplicatie nodig hebt. Maar ook kunt u een hosting pakket bij ons af sluiten.</p>
             <br/>
@@ -10,7 +10,7 @@
     </div>
     <div class="about__collumn">
         <div class="about__image">
-        
+            
         </div>
     </div>
 </div>
