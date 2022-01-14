@@ -12,10 +12,11 @@
             //modules
             include("src/includes/modules/home/_hero.php");
         ?>
-        <div class="content">
+        <div class="content" style="background-color:#303030;">
             <?php
                 include("src/includes/modules/home/_about.php");
                 include("src/includes/modules/home/_services.php");
+                // include("src/includes/modules/home/_portfolio.php");
             ?>
         </div>
         <script type="text/javascript" src="./public/js/JQuery3.3.1.js"></script>

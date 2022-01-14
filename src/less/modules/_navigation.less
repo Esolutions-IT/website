@@ -30,20 +30,52 @@
     position:relative;
     padding:20px 43px;
 
+    @media @tablet-l{
+        padding:6px 43px;
+    }
+
+    @media @mobile{
+        padding:6px 43px;
+    }
+
     img{
         width:319px;
+
+        @media @tablet-l{
+            width:150px;
+        }
+
+        @media @mobile{
+            width:150px;
+        }
     }
 }
     
 .header__info{
     height:109px;
     width:100vw;
+
+    @media @tablet-l{
+        height:0px;
+    }
+
+    @media @mobile{
+        height:0px;
+    }
 }
     
 .header__contact{
     display:flex;
     height:66px;
     padding-left:53px;
+
+    @media @tablet-l{
+        display:none;
+    }
+
+    @media @mobile{
+        display:none;
+    }
 }
 
 .header__items{
