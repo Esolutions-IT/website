@@ -12,7 +12,7 @@
                                 <div class="item__header">
                                     <div class="item__header--grayCircle">
                                         <div class="item__header--whiteCircle">
-                                            <img class="item__header--icon" src="public/gfx/icons/internet.png">
+                                            <img class="item__header--icon" src="public/gfx/icons/cpu-tower.png">
                                         </div>
                                     </div>
                                 </div>
@@ -75,7 +75,7 @@
                                 <div class="item__header">
                                     <div class="item__header--grayCircle">
                                         <div class="item__header--whiteCircle">
-                                            <img class="item__header--icon" src="public/gfx/icons/webshop.png">
+                                            <img class="item__header--icon" src="public/gfx/icons/internet.png">
                                         </div>
                                     </div>
                                 </div>
@@ -96,7 +96,7 @@
                                 <div class="item__header">
                                     <div class="item__header--grayCircle">
                                         <div class="item__header--whiteCircle">
-                                            <img class="item__header--icon" src="public/gfx/icons/webshop.png">
+                                            <img class="item__header--icon" src="public/gfx/icons/video-recorder.png">
                                         </div>
                                     </div>
                                 </div>
