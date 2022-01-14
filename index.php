@@ -2,6 +2,7 @@
 <html>
     <head>
         <link rel="stylesheet" type="text/css" href="./public/css/package.min.css" />
+        <link rel="stylesheet" type="text/css" href="./public/css/lightslider.css">
     </head>
     <body>
         <?php
@@ -17,7 +18,9 @@
                 include("src/includes/modules/home/_services.php");
             ?>
         </div>
-
-        <script src="./public/js/main.js"></script>
+        <script type="text/javascript" src="./public/js/JQuery3.3.1.js"></script>
+        <script type="text/javascript" src="./public/js/lightslider.js"></script>
+        <script type="text/javascript" src="./public/js/main.js"></script>
+        
     </body>
 </html>

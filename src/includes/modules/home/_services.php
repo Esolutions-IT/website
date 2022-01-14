@@ -5,62 +5,112 @@
                 <h1 class="services__head--title">Diensten</h1>
             </div>
             <div class="services">
-                <div class="services__item" style="padding-right:58px;">
-                    <div class="item">
-                        <div class="item__header">
-                            <div class="item__header--grayCircle">
-                                <div class="item__header--whiteCircle">
-                                    <img class="item__header--icon" src="public/gfx/icons/internet.png">
+                <ul id="autoWidth" class="cs-hidden" style="display:flex;">
+                    <li class="item-a">
+                        <div class="services__item" style="padding-right:58px;">
+                            <div class="item">
+                                <div class="item__header">
+                                    <div class="item__header--grayCircle">
+                                        <div class="item__header--whiteCircle">
+                                            <img class="item__header--icon" src="public/gfx/icons/internet.png">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="item__content">
+                                    <h1 class="item__content--title">Hosting</h1>
+                                    <p class="item__content--text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam quis dui non magna sollicitudin maximus.</p>
+                                </div>
+                                <div class="item__footer">
+                                    <h1 class="item__footer--text">Meer informatie</h1>
                                 </div>
                             </div>
                         </div>
-                        <div class="item__content">
-                            <h1 class="item__content--title">Hosting</h1>
-                            <p class="item__content--text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam quis dui non magna sollicitudin maximus.</p>
-                        </div>
-                        <div class="item__footer">
-                            <h1 class="item__footer--text">Meer informatie</h1>
-                        </div>
-                    </div>
-                </div>
+                    </li>
 
-                <div class="services__item" style="padding-right:58px;">
-                    <div class="item">
-                        <div class="item__header">
-                            <div class="item__header--grayCircle">
-                                <div class="item__header--whiteCircle">
-                                    <img class="item__header--icon" src="public/gfx/icons/website.png">
+                    <li class="item-a">
+                        <div class="services__item" style="padding-right:58px;">
+                            <div class="item">
+                                <div class="item__header">
+                                    <div class="item__header--grayCircle">
+                                        <div class="item__header--whiteCircle">
+                                            <img class="item__header--icon" src="public/gfx/icons/website.png">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="item__content">
+                                    <h1 class="item__content--title">Website</h1>
+                                    <p class="item__content--text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam quis dui non magna sollicitudin maximus.</p>
+                                </div>
+                                <div class="item__footer">
+                                    <h1 class="item__footer--text">Meer informatie</h1>
                                 </div>
                             </div>
                         </div>
-                        <div class="item__content">
-                            <h1 class="item__content--title">Website</h1>
-                            <p class="item__content--text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam quis dui non magna sollicitudin maximus.</p>
-                        </div>
-                        <div class="item__footer">
-                            <h1 class="item__footer--text">Meer informatie</h1>
-                        </div>
-                    </div>
-                </div>
+                    </li>
 
-                <div class="services__item">
-                    <div class="item">
-                        <div class="item__header">
-                            <div class="item__header--grayCircle">
-                                <div class="item__header--whiteCircle">
-                                    <img class="item__header--icon" src="public/gfx/icons/webshop.png">
+                    <li class="item-a">
+                        <div class="services__item" style="padding-right:58px;">
+                            <div class="item">
+                                <div class="item__header">
+                                    <div class="item__header--grayCircle">
+                                        <div class="item__header--whiteCircle">
+                                            <img class="item__header--icon" src="public/gfx/icons/webshop.png">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="item__content">
+                                    <h1 class="item__content--title">Webshop</h1>
+                                    <p class="item__content--text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam quis dui non magna sollicitudin maximus.</p>
+                                </div>
+                                <div class="item__footer">
+                                    <h1 class="item__footer--text">Meer informatie</h1>
                                 </div>
                             </div>
                         </div>
-                        <div class="item__content">
-                            <h1 class="item__content--title">Webshop</h1>
-                            <p class="item__content--text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam quis dui non magna sollicitudin maximus.</p>
+                    </li>
+
+                    <li class="item-a">
+                        <div class="services__item" style="padding-right:58px;">
+                            <div class="item">
+                                <div class="item__header">
+                                    <div class="item__header--grayCircle">
+                                        <div class="item__header--whiteCircle">
+                                            <img class="item__header--icon" src="public/gfx/icons/webshop.png">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="item__content">
+                                    <h1 class="item__content--title">Domeinregistratie</h1>
+                                    <p class="item__content--text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam quis dui non magna sollicitudin maximus.</p>
+                                </div>
+                                <div class="item__footer">
+                                    <h1 class="item__footer--text">Meer informatie</h1>
+                                </div>
+                            </div>
                         </div>
-                        <div class="item__footer">
-                            <h1 class="item__footer--text">Meer informatie</h1>
+                    </li>
+
+                    <li class="item-a">
+                        <div class="services__item" style="padding-right:58px;">
+                            <div class="item">
+                                <div class="item__header">
+                                    <div class="item__header--grayCircle">
+                                        <div class="item__header--whiteCircle">
+                                            <img class="item__header--icon" src="public/gfx/icons/webshop.png">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="item__content">
+                                    <h1 class="item__content--title">Video Editing</h1>
+                                    <p class="item__content--text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam quis dui non magna sollicitudin maximus.</p>
+                                </div>
+                                <div class="item__footer">
+                                    <h1 class="item__footer--text">Meer informatie</h1>
+                                </div>
+                            </div>
                         </div>
-                    </div>
-                </div>
+                    </li>
+                </ul>
             </div>
         </div>
     </div>
